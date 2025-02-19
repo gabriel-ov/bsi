@@ -126,10 +126,10 @@ function removeCartas(){
     }
     if (cartas_removidas == 8){
         if (j1.pontuacao == j2.pontuacao){
-            document.getElementById("corpo").innerHTML += "<div class='resultado_final'>O JOGO EMPATOU!</div>";
+            document.getElementById("corpo").innerHTML += "<div class='resultado_final'>O JOGO EMPATOU!<div><input type='button' value='JOGAR DE NOVO' onclick='window.location.reload()' class='botao' id='botao2'></div></div>";
         } else if (j1.pontuacao > j2.pontuacao){
-            document.getElementById("corpo").innerHTML += "<div class='resultado_final'>PARABÉNS, " + j1.nome + "! VOCÊ VENCEU O JOGO!</div>";
-        } else document.getElementById("corpo").innerHTML += "<div class='resultado_final'>PARABÉNS, " + j2.nome + "! VOCÊ VENCEU O JOGO!</div>";
+            document.getElementById("corpo").innerHTML += "<div class='resultado_final'>PARABÉNS, " + j1.nome + "! VOCÊ VENCEU O JOGO!<div><input type='button' value='JOGAR DE NOVO' class='botao' onclick='window.location.reload()' id='botao2'></div></div>";
+        } else document.getElementById("corpo").innerHTML += "<div class='resultado_final'>PARABÉNS, " + j2.nome + "! VOCÊ VENCEU O JOGO!<div><input type='button' value='JOGAR DE NOVO' class='botao' onclick='window.location.reload()' id='botao2'></div></div>";
     }
 }
 

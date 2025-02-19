@@ -110,6 +110,15 @@ input{
     margin-right: 200px;
 }
 
+#botao2{
+    width: 350px;
+    background-color: rgb(38, 21, 192);
+}
+
+#botao2:hover {
+    background-color:rgb(190, 170, 218);
+}
+
 .placar{
     text-align: center;
     align-content: center;
@@ -119,7 +128,7 @@ input{
     z-index: -2;
     height: 100px;
     width: 300px;
-    top: 30%;
+    top: 15%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-color: rgb(38, 21, 192);
     border-width: 10px;
